@@ -1,0 +1,16 @@
+ 1115  npm init 
+ 1116  ls
+ 1117  npm install --save-dev gulp
+ 1118  gulp --version
+ 1119  vi gulpfile.js
+ 1120  gulp
+ 1121  ls
+ 1122  rm -rf /Users/cc/mitt/Javascript/JS-OOP/Ex-9/node_modules
+ 1123  mv node_modules package* /Users/cc/mitt/Javascript/JS-OOP/Ex-9/
+ 1124  cd /Users/cc/mitt/Javascript/JS-OOP/Ex-9/
+ 1125  gulp
+ 1126  git add -A
+ 1127  git commit -m "add the gulp config file"
+ 1128  git push
+ 1129  git pull
+ 1130  git push
