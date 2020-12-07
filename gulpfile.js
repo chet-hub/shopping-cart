@@ -1,15 +1,15 @@
-const {src, dest, series, parallel,watch} = require('gulp');
+const {src, dest, series, parallel, watch} = require('gulp');
 const del = require('delete');
 const sourcemaps = require('gulp-sourcemaps');
 const cleanCSS = require('gulp-clean-css');
-const imagemin   = require('gulp-imagemin');
+const imagemin = require('gulp-imagemin');
 const minify = require('gulp-minify');
 const concatCss = require('gulp-concat-css');
-const htmlreplace = require('gulp-html-replace');
+const htmlReplace = require('gulp-html-replace');
 const concat = require('gulp-concat');
 
 function clean(cb) {
-    del(['./dist/'],cb)
+    del(['./dist/'], cb)
 }
 
 function cssMinify(cb) {
@@ -37,9 +37,9 @@ function javascript(cb) {
     cb()
 }
 
-function html(cb){
+function html(cb) {
     src('./src/index.html')
-        .pipe(htmlreplace({
+        .pipe(htmlReplace({
             'css': 'css/bundle.css',
             'js': 'js/bundle.js'
         }))
@@ -47,6 +47,12 @@ function html(cb){
     cb();
 }
 
+function watchToProcess() {
+    watch('src/css/**.css', {ignoreInitial: false, delay: 500}, cssMinify);
+    watch('src/js/**.js', {ignoreInitial: false, delay: 500}, javascript);
+    watch('src/**.html', {ignoreInitial: false, delay: 1}, html);
+}
 
-// exports.build = ;
-exports.default = series(clean,parallel(javascript,imagesMinify,cssMinify),html)
+exports.clean = clean;
+exports.watch = watchToProcess;
+exports.default = series(clean, parallel(javascript, imagesMinify, cssMinify), html)

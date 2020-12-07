@@ -1,0 +1,30 @@
+
+body { 
+  background-color: #123457;
+}
+
+nav {
+  background-color: #123457;
+}
+
+.cart-inner {
+  background-color: #123457;
+}
+
+
+.cart-inner #delete {
+  color: #123457;
+}
+
+.courses li {
+  border: 3px solid #dfdfdf;
+}
+
+
+#add-to-cart {
+  background-color: #456990;
+}
+
+#add-to-cart:hover {
+  border: 2px solid #456990;
+}
