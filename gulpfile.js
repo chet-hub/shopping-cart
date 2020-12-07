@@ -1,38 +1,42 @@
-// const {src, dest, series, parallel,watch} = require('gulp');
-// const del = require('delete');
-// const sourcemaps = require('gulp-sourcemaps');
-// const imagemin   = require('gulp-imagemin');
-// const minify = require('gulp-minify');
-//
-// function clean() {
-//     del(['dest/'])
-// }
-//
-//
-// function cssMinify() {
-//     src("src/css/*.css")
-//         .pipe()
-//         .pipe(dest("dest/"))
-// }
+const {src, dest, series, parallel,watch} = require('gulp');
+const del = require('delete');
+const sourcemaps = require('gulp-sourcemaps');
+const cleanCSS = require('gulp-clean-css');
+const imagemin   = require('gulp-imagemin');
+const minify = require('gulp-minify');
+var postcss = require('gulp-postcss');
 
-// function jsMinify() {
-//     src("src/js/*.js")
-//         .pipe(sourcemaps.init())
-//         .pipe(minify())
-//         .pipe(sourcemaps.write('../maps'))
-//         .pipe(dest("dest/"))
-// }
-//
-// function imagesMinify() {
-//     src("src/images/*")
-//         .pipe(imagemin())
-//         .pipe(dest("dest/"))
-// }
-
-
-function defaultTask(cb) {
-    // place code for your default task here
-    cb();
+function clean(cb) {
+    del(['./dist/'])
+    cb()
 }
 
-exports.default = defaultTask
+function cssMinify(cb) {
+    src("./src/css/*.css")
+        .pipe(sourcemaps.init())
+        .pipe(cleanCSS())
+        // .pipe(postcss())
+        .pipe(sourcemaps.write('./maps'))
+        .pipe(dest("./dist/css"))
+    cb()
+}
+
+function imagesMinify(cb) {
+    src("./src/images/*")
+        .pipe(imagemin())
+        .pipe(dest("./dist/images"))
+    cb()
+}
+
+function javascript(cb) {
+    src('./src/**/*.js')
+        .pipe(sourcemaps.init())
+        .pipe(minify())
+        .pipe(sourcemaps.write('./maps'))
+        .pipe(dest('./dist'));
+    cb()
+}
+
+
+// exports.build = ;
+exports.default = series(clean,parallel(javascript,imagesMinify,cssMinify))
