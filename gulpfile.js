@@ -6,6 +6,7 @@ const imagemin   = require('gulp-imagemin');
 const minify = require('gulp-minify');
 const concatCss = require('gulp-concat-css');
 const htmlreplace = require('gulp-html-replace');
+const concat = require('gulp-concat');
 
 function clean(cb) {
     del(['./dist/'],cb)
@@ -29,6 +30,7 @@ function imagesMinify(cb) {
 function javascript(cb) {
     src('./src/**/*.js')
         .pipe(sourcemaps.init())
+        .pipe(concat('js/bundle.js'))
         .pipe(minify())
         .pipe(sourcemaps.write('./map'))
         .pipe(dest('./dist'));
@@ -39,8 +41,7 @@ function html(cb){
     src('./src/index.html')
         .pipe(htmlreplace({
             'css': 'css/bundle.css',
-            'js': 'js/courses-min.js',
-            'js1': 'js/main-min.js'
+            'js': 'js/bundle.js'
         }))
         .pipe(dest('./dist'));
     cb();

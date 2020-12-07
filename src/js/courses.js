@@ -103,4 +103,5 @@ window.addEventListener('DOMContentLoaded',function () {
     </li>`);
   });
 
+  window['courses'] = courses;
 });
