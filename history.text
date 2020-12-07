@@ -1,16 +1,1114 @@
- 1115  npm init 
- 1116  ls
- 1117  npm install --save-dev gulp
- 1118  gulp --version
- 1119  vi gulpfile.js
- 1120  gulp
- 1121  ls
- 1122  rm -rf /Users/cc/mitt/Javascript/JS-OOP/Ex-9/node_modules
- 1123  mv node_modules package* /Users/cc/mitt/Javascript/JS-OOP/Ex-9/
- 1124  cd /Users/cc/mitt/Javascript/JS-OOP/Ex-9/
- 1125  gulp
- 1126  git add -A
- 1127  git commit -m "add the gulp config file"
- 1128  git push
- 1129  git pull
- 1130  git push
+  100  yabai -m space --focus 1 
+  101  yabai -m space --focus 2
+  102  yabai -m space --focus 3
+  103  brew services 
+  104  brew services skhd restart
+  105  brew services restart skhd
+  106  brew services restart yabai
+  107  yabai -m space --focus 5 
+  108  yabai -m space --focus 5 
+  109  sudo yabai --install-sa 
+  110  sudo reboot
+  111  exit
+  112  yabai -m space --focus 2
+  113  open -na /Applications/Utilities/Terminal.app 
+  114  open -na Terminal.app 
+  115  exit
+  116  exit
+  117  exit
+  118  exit
+  119  ls
+  120  cd ~/.config
+  121  ls
+  122  cd skhd
+  123  ls
+  124  code skhdrc
+  125  cmd - 0x15 : yabai -m space --focus 4 
+  126  yabai -m space --focus 4  
+  127  yabai
+  128  brew services
+  129  brew stop yabai
+  130  brew services  stop yabai
+  131  brew reinstall yabai
+  132  brew services start yabai
+  133  yabai -m space --focus 4  
+  134  cd /usr/local/Cellar/yabai/3.3.4 
+  135  ls
+  136  cd bin
+  137  ls
+  138  ./yabai
+  139  ./yabai -m space --rotate 90 
+  140  ./yabai -m space --focus 2 
+  141  ./yabai -m space --focus 1
+  142  ./yabai -m space --focus 2
+  143  brew services restart skhd
+  144  ls
+  145  cd ..
+  146  ls
+  147  cd..
+  148  ls
+  149  cd ..
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd skhd
+  154  ls
+  155  cd 
+  156  ls
+  157  cd -
+  158  ls
+  159  cd 0.3.5
+  160  ls
+  161  cd bin
+  162  ls
+  163  ls
+  164  ./skhd
+  165  du -sh skhd
+  166  ./skhd -V
+  167  brew services stop skhd
+  168  ./skhd -V
+  169  ./skhd -V
+  170  csrutil enable --without debug --without fs 
+  171  sudo csrutil enable --without debug --without fs 
+  172  sudo reboot
+  173  exit
+  174  exit
+  175  sudo csrutil status
+  176  ls
+  177  code ~/.config/skhd
+  178  yabai -m space --focus 1 
+  179  yabai -m space --focus 2 
+  180  yabai -m space --focus 1
+  181  brew services
+  182  brew services start skhd
+  183  brew services
+  184  yabai -m space --balance
+  185  yabai -m space --balance
+  186  yabai -m space --balance
+  187  yabai -m space --balance
+  188  yabai -m space --balance
+  189  yabai -m window --toggle sticky 
+  190  yabai -m space --layout bsp 
+  191  yabai -m space --layout float
+  192  yabai -m space --layout bsp 
+  193  yabai -m space --layout bsp 
+  194  yabai -m space --balance
+  195  yabai -m space --toggle padding
+  196  ls
+  197  clear
+  198  ls
+  199  cd .config
+  200  ls
+  201  cd yabai
+  202  ls
+  203  cd ..
+  204  ls
+  205  cp -f yabai skhd /tmp
+  206  cp -r yabai skhd /tmp
+  207  cp -r yabai skhd ~/Desktop
+  208  exit
+  209  brew services
+  210  brew services restart restart
+  211  brew services restart yabai
+  212  exit
+  213  sudo reboot
+  214  code
+  215  /Users/cc/games/2game/s7 ; exit;
+  216  ls
+  217  cd .config
+  218  ls
+  219  cd skhd
+  220  ls
+  221  vi skhdrc
+  222  exit
+  223  cd games
+  224  ls
+  225  git clone https://github.com/cc861010/initGL.git 
+  226  exit
+  227  code
+  228  git clone https://github.com/chet-hub/chet-hub.github.io.git 
+  229  ls
+  230  cd chet-hub.github.io
+  231  ls
+  232  ll
+  233  ls -all
+  234  cd ../chet-hub.github.io-master
+  235  ls
+  236  ls -all
+  237  ls
+  238  ls
+  239  ll
+  240  ls -all
+  241  rm .DS_Store
+  242  ls
+  243  cd ..
+  244  cd -
+  245  ls
+  246  cd ..
+  247  cd -
+  248  ls
+  249  cd ..
+  250  ls
+  251  cd chet-hub.github.io
+  252  cp -rf ../chet-hub.github.io-master/* 
+  253  cp -r ../chet-hub.github.io-master/* 
+  254  cp -r ../chet-hub.github.io-master/* .
+  255  ls
+  256  git add --All
+  257  git add -A
+  258  git  commit -m "theme init"
+  259  git push
+  260  git push 
+  261  pbcopy < ~/.ssh/id_rsa.pub 
+  262  git push
+  263  git push
+  264  git@github.com:chet-hub/chet-hub.github.io.git 
+  265  git remote -v
+  266  git remote 
+  267  git remote origin
+  268  git remote set-url --push git@github.com:chet-hub/chet-hub.github.io.git 
+  269  git remote set-url git@github.com:chet-hub/chet-hub.github.io.git 
+  270  git remote set-url --push orign git@github.com:chet-hub/chet-hub.github.io.git 
+  271  git remote set-url 
+  272  git remote  
+  273  git remote origin
+  274  git remote origin get-url
+  275  git remote get-url origin
+  276  git remote set-url origin git@github.com:chet-hub/chet-hub.github.io.git 
+  277  git push
+  278  git add -A
+  279  git commit -m "test"
+  280  git push
+  281  git pull
+  282  exit
+  283  brew install ruby 
+  284  gem
+  285  gem install --user-install bundler jekyll 
+  286  jekyll
+  287  gem 
+  288  gem list --local
+  289  gem jekyll 
+  290  gem env 
+  291  ruby -v
+  292  gem install --user-install bundler jekyll 
+  293  /usr/local/bin/jekyll 
+  294  gem install bundler 
+  295  gem install -n /usr/local/bin jekyll 
+  296  sudo gem install -n /usr/local/bin jekyll 
+  297  jekyll 
+  298  jekyll
+  299  jekyll
+  300  exit
+  301  jekell
+  302  jekyll
+  303  cd mitt
+  304  cd chet-hub.github.io
+  305  ls
+  306  cler
+  307  clear
+  308  jekyll
+  309  bundle exec jekyll serve 
+  310  bundle install 
+  311  bundle exec jekyll serve 
+  312  cd ../Mysite
+  313  bundle exec jekyll serve 
+  314  jekyll serve
+  315  jekyll serve
+  316  jekyll serve
+  317  jekyll serve
+  318  cd -
+  319  jekyll serve
+  320  jekyll watch
+  321  jekyll-watch
+  322  jekyll serve
+  323  jekyll serve
+  324  cd -
+  325  jekyll serve
+  326  f
+  327  ls
+  328  document
+  329  clear
+  330  ls
+  331  clear
+  332  ls
+  333  ls
+  334  ls
+  335  ls
+  336  exit
+  337  echo
+  338  echo '''
+  339  node
+  340  exit
+  341  for i in {16..21} {21..16} ; do echo -en "\e[38;5;${i}m#\e[0m" ; done ; echo
+  342  for i in {1..100} {100..1} ; do echo -en "\e[38;5;${i}m#\e[0m" ; done ; echo
+  343  for i in {1..1000} {1000..1} ; do echo -en "\e[38;5;${i}m#\e[0m" ; done ; echo
+  344  for clbg in {40..47} {100..107} 49 ; do\n\t#Foreground\n\tfor clfg in {30..37} {90..97} 39 ; do\n\t\t#Formatting\n\t\tfor attr in 0 1 2 4 5 7 ; do\n\t\t\t#Print the result\n\t\t\techo -en "\e[${attr};${clbg};${clfg}m ^[${attr};${clbg};${clfg}m \e[0m"\n\t\tdone\n\t\techo #Newline\n\tdone\ndone
+  345  export PS1="My simple prompt> " 
+  346  dfdf
+  347  exit
+  348  export PS1='[\u@\h:\w]\$ ' 
+  349  dfd
+  350  export PS1='\[\e[31m\]\u@\h:\w\[\e[0m\] '
+  351  export PS1='[\[$magenta\]\u\[$reset\]@\[$magenta\]\h\[$reset\]:\[$blue\]\w\[$reset\]]\\$ '
+  352  df
+  353  exit
+  354  cd /tmp
+  355  git clone git@github.com:chet-hub/include.git 
+  356  cd include
+  357  ls
+  358  mv README.md .git ~/mitt/include
+  359  exit
+  360  cd  mitt/include
+  361  ls
+  362  git add -A
+  363  git status
+  364  git remove .DS_Store
+  365  clear
+  366  git
+  367  git status
+  368  git add .gitignore
+  369  git status
+  370  git commit -m "init project"
+  371  git push
+  372  exit
+  373  cd mitt
+  374  ls
+  375  cd include
+  376  ls
+  377  cat ./components/*
+  378  exit
+  379  cd ~/mitt/include/components
+  380  ls
+  381  cat a.html
+  382  cd   mitt
+  383  ls
+  384  cd include
+  385  ls
+  386  git status
+  387  git add README.md
+  388  git commit -m "update readme.md"
+  389  git push
+  390  cd mitt
+  391  ls
+  392  cd include
+  393  ls
+  394  git add include.js 
+  395  git add README.md
+  396  git status
+  397  git commit -m "update the readme and fix the Node constructor function parametre"
+  398  git push
+  399  git add README.md
+  400  git commit -m "update readme"
+  401  git push
+  402  exit
+  403  cd mitt
+  404  ls
+  405  cd include
+  406  ls
+  407  git add -A
+  408  git commit -m "update the example and readme"
+  409  git push
+  410  cd mitt/include
+  411  git status
+  412  git add README.md
+  413  git commit -m "update readme"
+  414  git push
+  415  cd  mitt/include
+  416  git add -A
+  417  git commit -m "update readme"
+  418  git push
+  419  exit
+  420  cd mitt
+  421  ls
+  422  cd simplest
+  423  ls
+  424  tree
+  425  brew install tree
+  426  tree
+  427  code
+  428  history | python
+  429  history
+  430  history -l 100
+  431  man history
+  432  code
+  433  cd /tmp
+  434  ls
+  435  git clone git@github.com:chet-hub/chet-hub.github.io.git 
+  436  cd chet-hub.github.io
+  437  ls
+  438  mv .git ~/mitt/simplest
+  439  cd ~/mitt/simplest
+  440  ls
+  441  clear
+  442  ls
+  443  ls
+  444  git status
+  445  git add -AA
+  446  git status
+  447  git commit -m "init blog"
+  448  git push
+  449  git add .
+  450  git commit -m "update readme"
+  451  git push
+  452  git add .
+  453  git commit -m "update readme"
+  454  git push
+  455  git pull
+  456  ifconfig
+  457  git add -A
+  458  git commit -m "modify the css"
+  459  git push
+  460  git add -A
+  461  git commit -m "modify the css"
+  462  git push
+  463  git config --list --show-origin
+  464  vi ~/.gitconfig
+  465  ls
+  466  git config
+  467  git cofnig -l
+  468  git config -l
+  469  t config --global core.editor
+  470  git config --global core.editor
+  471  git config --getall
+  472  git config --get-all
+  473  git config -e
+  474  cd mitt
+  475  cd simplest
+  476  git status
+  477  cd ..
+  478  ls
+  479  mkdir gittest
+  480  cd gittest
+  481  ls
+  482  git init
+  483  ls
+  484  touch cc
+  485  echo "123" > cc
+  486  ls
+  487  cat cc
+  488  git status
+  489  set --universal LC_ALL=en_US.UTF-8 
+  490  git status
+  491  vi ~/.bashrc 
+  492  exit
+  493  cd mitt
+  494  ls
+  495  cd gittest
+  496  git status
+  497  cd ~/.config/
+  498  ls
+  499  cd 
+  500  vi ~/.bash_profile 
+  501  exit
+  502  git 
+  503  python3 -m http.server 8000
+  504  npm -v
+  505  node -v
+  506  brew remove git
+  507  git
+  508  git
+  509  git -V
+  510  git -version
+  511  git --version
+  512  cd mitt
+  513  s
+  514  ls
+  515  cs gittest
+  516  ls
+  517  git status
+  518  ls
+  519  cd gittest
+  520  ls
+  521  git status
+  522  git add cc
+  523  git status
+  524  echo "fff" > ff
+  525  ls
+  526  git status
+  527  ls
+  528  cd git
+  529  cd gittest
+  530  ls
+  531  clear
+  532  ls
+  533  git tatus
+  534  git tatus -s
+  535  git status -s
+  536  clear
+  537  git status -s
+  538  eacho "cccccc" > zz
+  539  ls
+  540  git status -s
+  541  git add zz
+  542  git commit -m "zz"
+  543  ls
+  544  git status -s
+  545  git status
+  546  git status -s
+  547  echo "ff" >> zz
+  548  git status -s
+  549  echo "cc" >> zz
+  550  git status -s
+  551  git add zz
+  552  git status -s
+  553  echo "cc" >> zz
+  554  git status -s
+  555  echo "cc" >> zz
+  556  git status -s
+  557  git add zz
+  558  git status -s
+  559  echo "cc" >> zz
+  560  git status -s
+  561  git diff
+  562  ls
+  563  cat zz
+  564  git status
+  565  git diff
+  566  cat zz
+  567  git diff --staged
+  568  git log
+  569  git add zz
+  570  git commit -m "cc"
+  571  git diff --staged
+  572  git diff 
+  573  git diff --staged
+  574  echo "ff" >> zz
+  575  git diff --staged
+  576  git diff 
+  577  git diff --staged
+  578  git add zz
+  579  git diff --staged
+  580  git diff 
+  581  git diff --staged
+  582  git diff 
+  583  git diff --staged
+  584  git diff --cached
+  585  git status
+  586  git commit 
+  587  git commit -a
+  588  git status
+  589  git commit -a
+  590  git status -a
+  591  git status 
+  592  git rm f
+  593  git rm ff
+  594  ls
+  595  git rm ff
+  596  git rm ./ff
+  597  git rm 
+  598  git log --graph --decorate
+  599  git clean -n
+  600  git clean -f
+  601  git clean -n
+  602  git status
+  603  ls
+  604  git reset 
+  605  ls
+  606  git status -s
+  607  git status 
+  608  git reset --hard
+  609  ls
+  610  git status
+  611  git log
+  612  git reset --hard 1acb
+  613  git status
+  614  ls
+  615  echo "fff" >> ff
+  616  git status
+  617  git add ff
+  618  git commit -m "ddd"
+  619  git status
+  620  git diff
+  621  git log
+  622  git log -all
+  623  git log -a
+  624  git log -a
+  625  git log --all
+  626  cd ..
+  627  ls
+  628  rm -rf gittest
+  629  git clone https://github.com/udacity/course-git-blog-project.git test
+  630  cd tes
+  631  cd test
+  632  ls
+  633  clear
+  634  ls
+  635  git status
+  636  git log
+  637  git help log
+  638  git log --grap=70f6
+  639  git log --grap="706f"
+  640  git log --grep="706f"
+  641  git log --grep=706f
+  642  git log
+  643  git log 70635
+  644  git help log 
+  645  git help log 
+  646  git log --grep-reflog=70635
+  647  git log --grep-reflog
+  648  git log --grep-reflog 70
+  649  git log --walk-reflog 
+  650  git log --walk-reflogs 
+  651  git log --walk-reflogs 
+  652  git log --grep-reflog 
+  653  git log --grep-reflog 111
+  654  git log 70
+  655  git log 70f635
+  656  git show
+  657  clear
+  658  git  show
+  659  git  show 706f
+  660  git  show 
+  661  clear
+  662  git help  show
+  663  git show --oneline
+  664  git log 70f
+  665  6
+  666  git log 70f6
+  667  git log 70f6 --full
+  668  git help log 
+  669  git log 70f6 --decorate=full 
+  670  git log cdce4f
+  671  ls
+  672  git log -p -- js
+  673  git log cdce4f -P
+  674  git log cdce4f -P --full-diff
+  675  git log cdce4f -p -2
+  676  git log cdce4f -p 
+  677  git log --stat
+  678  cd ../simplest
+  679  git log --stat
+  680  cdd -
+  681  cd -
+  682  git log --pretty=format:"%h %s" --graph 
+  683  git help log
+  684  git log -P
+  685  git log -p
+  686  git log -stat
+  687  git log --stat
+  688  rm -rf .
+  689  ls
+  690  rm -rf .
+  691  rm -rf ./*
+  692  ls
+  693  ll
+  694  ls -a
+  695  rm -rf ./.*
+  696  ls -a
+  697  touch index.html
+  698  mkdir css js
+  699  touch css/styles.css
+  700  touch js/main.js
+  701  cd ..
+  702  cd -
+  703  ls
+  704  git add ./*
+  705  git init
+  706  git add ./*
+  707  git status
+  708  git commit -m "first commit"
+  709  git branch
+  710  git help  branch
+  711  git branch feature1
+  712  git branch -a
+  713  git checkout feature1
+  714  ls
+  715  code index.html
+  716  cat index.html
+  717  git add index.html
+  718  git commit -m "index.html in feature1"
+  719  git checkout master
+  720  ls
+  721  code index.html
+  722  git branch -b feature2
+  723  git branch feature2
+  724  git branch -a
+  725  git checkout feature2
+  726  echo "HI,there\ngit commit -m "hi,in feature2"\ngit checkout master\nls
+  727  ls
+  728  git status
+  729  git branch --list
+  730  git checkout master
+  731  git  status
+  732  cat index.html
+  733  cat index.html
+  734  git merge
+  735  git merge feature2
+  736  cat index.html
+  737  ls
+  738  git status
+  739  git branch -a
+  740  git help merge
+  741  git merge feature2
+  742  cat index.html
+  743  git checkout feature2
+  744  cat index.html
+  745  echo "Hi, there > index.htlm
+  746  echo "Hi, there > index.html
+  747  echo "Hi, there > index.html
+  748  echo 'Hi, there' > index.html
+  749  cat index.html
+  750  git commit -m "feature2"
+  751  git commit -a
+  752  git commit -a -m "feature2"
+  753  git status
+  754  ls
+  755  git checkout master
+  756  git merge feature2
+  757  cat index.html
+  758  git merge feature1
+  759  git status
+  760  code index.html
+  761  git staus
+  762  git status
+  763  git add index.html
+  764  git commit -m "cc"
+  765  git branch -a
+  766  git branch -d featur1
+  767  git branch -d feature1
+  768  git branch -d feature2
+  769  git branch -a
+  770  git tag version-1.0
+  771  git branch -a
+  772  git tag
+  773  git status
+  774  cd ../include
+  775  git status
+  776  git commit -a -m "update readme and .gitignore"
+  777  git push
+  778  ls
+  779  git reset include.js --hard
+  780  git reset  --hard 
+  781  git 
+  782  where git
+  783  where git
+  784  exit
+  785  ls
+  786  ls -all
+  787  cd mitt
+  788  cd include
+  789  ls
+  790  ls -all
+  791  rm -rf .idea/
+  792  ls -all
+  793  node
+  794  exit
+  795  cd ..
+  796  ls
+  797  cd Javascript
+  798  ls
+  799  cd JS-OOP
+  800  ls
+  801  cd EX
+  802  cd Ex-9
+  803  ls
+  804  git init
+  805  git commit -a -m "init project"
+  806  git status
+  807  git add -A
+  808  ls -all
+  809  touch .gitignore
+  810  vi .gitignore
+  811  echo "**/.DS_Store" > .gitignore
+  812  git add .gitignore
+  813  git status
+  814  git reset -A
+  815  git reset 
+  816  git status
+  817  git log
+  818  git logs
+  819  mkdir src
+  820  mv css images index.html js src
+  821  ls
+  822  git add -A
+  823  git status
+  824  git commit -m "init project files"
+  825  git remote add origin git@github.com:chet-hub/shopping-cart.git
+  826  git branch
+  827  git help branch
+  828  git push 
+  829  git branch -M main
+  830  git push 
+  831  git push -u origin main
+  832  history -c
+  833  history -c
+  834  history
+  835  history -clean
+  836  man history
+  837  history -C
+  838  git add include.js
+  839  git commit -m "rewrite the js"
+  840  history
+  841  gulp
+  842  exit
+  843  npm install --global gulp-cli
+  844  npm install --save-dev gulp 
+  845  npm init
+  846  git add package*
+  847  npm install
+  848  npm install --save-dev gulp 
+  849  cat package.json
+  850  du -sh node_modules
+  851  gup
+  852  gulp
+  853  gulp help
+  854  man gulp
+  855  gulp init
+  856  touch gulpfile.js
+  857  git add gulpfile.js
+  858  npm install --save-dev gulp-minify
+  859  npm install --save-dev delete
+  860  npm install --save-dev gulp-sourcemaps
+  861  gulp
+  862  gulp
+  863  gulp
+  864  npm install --save-dev gulp-imagemin
+  865  gulp
+  866  gulp
+  867  gulp
+  868  gulp
+  869  gulp
+  870  gulp
+  871  gulp
+  872  gulp
+  873  gulp
+  874  gulp
+  875  gulp
+  876  gulp
+  877  gulp
+  878  gulp
+  879  npm install gulp-cli
+  880  gulp
+  881  npm install -g  gulp-cli
+  882  gulp
+  883  npm install  --force  gulp-cli
+  884  npm fund
+  885  gulp
+  886  guilp
+  887  gulp
+  888  ls
+  889  gulp
+  890  npm rm --global gulp 
+  891  node --version
+  892  npx --version 
+  893  npx
+  894  npm
+  895  npx
+  896  man npx
+  897  npm rm -g npx
+  898  npm install -g npx
+  899  npm install -g --force npx
+  900  npx
+  901  where npx
+  902  cat /usr/local/bin/npx
+  903  npx -version
+  904  npm install --global gulp-cli
+  905  cd /tmp
+  906  npx mkdirp my-project
+  907  npm install -g  mkdirp 
+  908  npx mkdirp my-project
+  909  cd my-project
+  910  ls
+  911  ls -all
+  912  npm init 
+  913  ls
+  914  npm install --save-dev gulp
+  915  gulp --version
+  916  vi gulpfile.js
+  917  gulp
+  918  ls
+  919  rm -rf /Users/cc/mitt/Javascript/JS-OOP/Ex-9/node_modules
+  920  mv node_modules package* /Users/cc/mitt/Javascript/JS-OOP/Ex-9/
+  921  cd /Users/cc/mitt/Javascript/JS-OOP/Ex-9/
+  922  gulp
+  923  git add -A
+  924  git commit -m "add the gulp config file"
+  925  git push
+  926  git pull
+  927  git push
+  928  history > history.text
+  929  git add history.text
+  930  git commit -m "add the history to the proejct for checking, the history size is small, and need to config later"
+  931  git push
+  932  ls
+  933  clear
+  934  ls
+  935  man history
+  936  sudo ./vieux -i "/Users/cc/Downloads/i4ToolsDownloads/Firmware/iPad_64bit_10.3.3_14G58_Restore.ipsw" 
+  937  node
+  938  gulp
+  939  clear
+  940  git add include.js
+  941  git commit -m "add include variable"
+  942  ls
+  943  git add -A
+  944  git commit -m "test the functions in browser"
+  945  git rm .idea
+  946  git rm -r .idea
+  947  git status
+  948  git add -A
+  949  git status
+  950  git commit -m "modify gitignore and delete the idea cofig files"
+  951  ls
+  952  git add README.md
+  953  git commit -m "update the readme"
+  954  git push 
+  955  git logs
+  956  git log
+  957  exit
+  958  history | grep python
+  959  exit
+  960  cd ../simplest
+  961  ls
+  962  cat include.js
+  963  git add ./include.js
+  964  git commit -m "ajax support IE"
+  965  git push
+  966  exit
+  967  git status
+  968  git status
+  969  git add include.js
+  970  git commit -m "repush"
+  971  git status
+  972  git pull
+  973  git status
+  974  git push
+  975  git status
+  976  exit
+  977  cd mitt/simplest
+  978  ls
+  979  git logs
+  980  git log
+  981  git  invest 7b0054b2e 
+  982  git  invert 7b0054b2e 
+  983  git revert 7b0054b2e 
+  984  git status 
+  985  git status
+  986  git checkout 7b0054b2e 
+  987  git checkout 7b0054b2e 
+  988  git status
+  989  git restore --hard
+  990  git reset --hard
+  991  git status
+  992  git checkout 7b0054b2e 
+  993  git status
+  994  vi .gitignore
+  995  git branch
+  996  git checkout master
+  997  git checkout main
+  998  git status
+  999  git reset -- .gitignore
+ 1000  git status
+ 1001  git add -A
+ 1002  git status
+ 1003  git commit -m "update the include.js and htmls"
+ 1004  git push
+ 1005  git status
+ 1006  git checkout -- .gitignore
+ 1007  git status
+ 1008  git status
+ 1009  git logs
+ 1010  git log
+ 1011  git branch
+ 1012  git checkout main
+ 1013  ls
+ 1014  git add .gitignore
+ 1015  git checkout main
+ 1016  git commit -m "gitignore"
+ 1017  git status
+ 1018  git branch
+ 1019  git checkout main
+ 1020  git branch include.new.js 1df4b68
+ 1021  git status
+ 1022  git branch
+ 1023  git status
+ 1024  ls
+ 1025  git status
+ 1026  git status
+ 1027  ls
+ 1028  git branch
+ 1029  ls
+ 1030  clear
+ 1031  ls
+ 1032  git status
+ 1033  git status
+ 1034  git status
+ 1035  git add .gitignore
+ 1036  git status
+ 1037  clear
+ 1038  ls
+ 1039  git status
+ 1040  git revert HEAD
+ 1041  git commit -m "save changes"
+ 1042  git status
+ 1043  git revert HEAD
+ 1044  git status
+ 1045  git status
+ 1046  ls
+ 1047  clear
+ 1048  git log
+ 1049  git add .gitignore
+ 1050  git commit -m "gitignore"
+ 1051  git status
+ 1052  git push 
+ 1053  git push origin HEAD master
+ 1054  git push origin master
+ 1055  git push origin 
+ 1056  git push origin HEAD:master
+ 1057  clear
+ 1058  git status
+ 1059  git branch
+ 1060  git branch main
+ 1061  git checkout main
+ 1062  git branch
+ 1063  git checkout master
+ 1064  git checkout master
+ 1065  ls
+ 1066  clear
+ 1067  ls
+ 1068  git log
+ 1069  git revert 7b0054b2ee0
+ 1070  git status
+ 1071  git branch
+ 1072  git checkout master
+ 1073  git reset components/post*
+ 1074  git status
+ 1075  git reset components/post* --hard
+ 1076  git checkout components/post*
+ 1077  git status
+ 1078  git status
+ 1079  clear
+ 1080  git status
+ 1081  git revert --abort
+ 1082  git status
+ 1083  git log
+ 1084  git revert HEAD~2
+ 1085  git status
+ 1086  git checkout 7b0054b2ee0c375687c841b7da1c31308d788699
+ 1087  git checkout components/post*
+ 1088  git checkout components/post
+ 1089  git checkout components/post.html
+ 1090  git status
+ 1091  git revert --abort
+ 1092  git status
+ 1093  git checkout 7b0054b2ee0c375687c841b7da1c31308d788699
+ 1094  git  log
+ 1095  git status
+ 1096  git revert HEAD
+ 1097  git status
+ 1098  git log
+ 1099  git status
+ 1100  git commit -c ORIG_HEAD  
+ 1101  git log
+ 1102  git push origin master --force
+ 1103  git push  --force
+ 1104  git push origin HEAD:master --force
+ 1105  git push origin HEAD:main --force
+ 1106  git log
+ 1107  clear
+ 1108  ls
+ 1109  gulp
+ 1110  gulp --tasks
+ 1111  gulp
+ 1112  npm i --dev-save gulp-sourcemaps
+ 1113  npm i --dev-save delete
+ 1114  npm install -g npm
+ 1115  sudo npm install -g npm
+ 1116  npm i --dev-save gulp-minify
+ 1117  npm
+ 1118  sudo npm install -g npm
+ 1119   npm install -g npm
+ 1120  npm i --dev-save gulp-minify
+ 1121  npm
+ 1122  npm i --dev-save gulp-minify
+ 1123  npm install gulp-clean-css --save-dev
+ 1124  npm install --save-dev postcss gulp-postcss
+ 1125  npm install --save-dev gulp-imagemin
+ 1126  gulp
+ 1127  gulp
+ 1128  gulp
+ 1129  git add -A
+ 1130  git commit -m "update the gulpfile.js"
+ 1131  git push
+ 1132  git add gulpfile.js
+ 1133  git commit -m "update gulpfile.js to add the task that copy the index.html to dist"
+ 1134  git push
+ 1135  git branch colour-change
+ 1136  git branch
+ 1137  git checkout color-change
+ 1138  git status
+ 1139  git branch
+ 1140  git checkout colour-change
+ 1141  clear
+ 1142  npm install --save-dev gulp-concat-css
+ 1143  npm install --save-dev gulp-inject 
+ 1144  npm install --save-dev npm i gulp-inject-string
+ 1145  npm install --save-dev gulp-inject-string
+ 1146  npm install --save-dev gulp-html-replace
+ 1147  git status
+ 1148  git status
+ 1149  git add -A
+ 1150  git commit -m "update index.html and add plugins for modify index.html"
+ 1151  git push
+ 1152  git push --set-upstream origin colour-change 
+ 1153  git branch
+ 1154  git merged main
+ 1155  git checkout main
+ 1156  git checkout colour-change
+ 1157  npm install --save-dev gulp-concat
+ 1158  git status
+ 1159  git add -A
+ 1160  git commit -m "1.add the js concat plugin 2.fix the problem when use js concat"
+ 1161  git  push
+ 1162  gulp watch
+ 1163  gulp watch
+ 1164  gulp watch
+ 1165  gulp watch
+ 1166  gulp watch
+ 1167  gulp watch
+ 1168  gulp watch
+ 1169  gulp watch
+ 1170  git add gulpfile.js
+ 1171  git commit -m "add gulp watch support"
+ 1172  git push
+ 1173  git status
+ 1174  git branch
+ 1175  gulp
+ 1176  gulp run
+ 1177  gulp clean
+ 1178  git commit -a -m "change the gulp default to watch and process; add run command to process all task"
+ 1179  git push
+ 1180  git checkout main
+ 1181  git status
+ 1182  git branch lis
+ 1183  git branch list
+ 1184  git branch
+ 1185  git branch -d list lis
+ 1186  git branch
+ 1187  git merge main
+ 1188  git status
+ 1189  git status
+ 1190  git branch
+ 1191  git merge colour-change
+ 1192  git status
+ 1193  git diff
+ 1194  gulp
+ 1195  git branch 
+ 1196  git branch -d colour-change
+ 1197  git status
+ 1198  history
+ 1199  history -n 100
+ 1200  history -n 50
+ 1201  history -n 30
+ 1202  history -n 30
+ 1203  history -n 20
+ 1204  clear
+ 1205  history -n 10
+ 1206  history
+ 1207  history >> ./history.text
+ 1208  cat history.text
+ 1209  git checkout -- history.text
+ 1210  clear
+ 1211  history -n 30
+ 1212  history -n 30 >> history.text
+ 1213  git checkout -- history.text
