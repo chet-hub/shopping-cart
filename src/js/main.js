@@ -55,35 +55,40 @@ class Cart {
   }
 }
 
-const cart = new Cart();
+window.addEventListener('DOMContentLoaded',function () {
 
-coursesEle.addEventListener('click',function(event){
-  if(event.target.matches("button")){
-    const li = event.target.closest('li')
-    if(li){
-      const id = li.dataset['courseId']
-      cart.addCourse(id);
-      cart.render()
-      console.table(cart.courses)
+  const cart = new Cart();
+
+  coursesEle.addEventListener('click',function(event){
+    if(event.target.matches("button")){
+      const li = event.target.closest('li')
+      if(li){
+        const id = li.dataset['courseId']
+        cart.addCourse(id);
+        cart.render()
+        console.table(cart.courses)
+      }
     }
-  }
-})
+  })
 
-document.querySelector(".cart-inner").addEventListener('click',function(event){
-  if(event.target.matches("i")){
-    const li = event.target.closest('li')
-    if(li){
-      const lis = event.target.closest('ul').children
-      for(let i=0;i<lis.length;i++){
-        if(lis[i] === li){
-          cart.removeCourse(i);
-          console.log("enven->"+i)
-          cart.render()
-          console.table(cart.courses)
+  document.querySelector(".cart-inner").addEventListener('click',function(event){
+    if(event.target.matches("i")){
+      const li = event.target.closest('li')
+      if(li){
+        const lis = event.target.closest('ul').children
+        for(let i=0;i<lis.length;i++){
+          if(lis[i] === li){
+            cart.removeCourse(i);
+            console.log("enven->"+i)
+            cart.render()
+            console.table(cart.courses)
+          }
         }
       }
     }
-  }
+  })
+
+
 })
 
 /** 
