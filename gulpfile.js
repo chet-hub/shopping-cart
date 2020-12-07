@@ -37,6 +37,11 @@ function javascript(cb) {
     cb()
 }
 
+function html(cb){
+    src('./src/*.html').pipe(dest('./dist'));
+    cb();
+}
+
 
 // exports.build = ;
-exports.default = series(clean,parallel(javascript,imagesMinify,cssMinify))
+exports.default = series(clean,parallel(javascript,imagesMinify,cssMinify),html)
