@@ -54,5 +54,5 @@ function watchToProcess() {
 }
 
 exports.clean = clean;
-exports.watch = watchToProcess;
-exports.default = series(clean, parallel(javascript, imagesMinify, cssMinify), html)
+exports.run = series(clean, parallel(javascript, imagesMinify, cssMinify), html);
+exports.default = watchToProcess
